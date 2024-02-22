@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navbar class="sticky top-0 bg-blue-400 shadow-md pt-5 pb-7" />
+    <navbar class="sticky top-0 bg-blue-300 shadow-md pt-5 pb-7" />
 
     <!-- component -->
     <div class="flex h-screen">
@@ -250,19 +250,7 @@
 
           <form action="#" method="POST" class="space-y-4">
             <!-- Your form elements go here -->
-            <div>
-              <label
-                for="username"
-                class="block text-sm font-medium text-gray-700"
-                >Username</label
-              >
-              <input
-                type="text"
-                id="username"
-                name="username"
-                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"
-              />
-            </div>
+
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700"
                 >Email</label
@@ -279,6 +267,19 @@
                 for="password"
                 class="block text-sm font-medium text-gray-700"
                 >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"
+              />
+            </div>
+            <div>
+              <label
+                for="password"
+                class="block text-sm font-medium text-gray-700"
+                >Confirm Password</label
               >
               <input
                 type="password"

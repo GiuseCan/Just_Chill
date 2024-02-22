@@ -1,6 +1,6 @@
 <template>
   <div class="px-28 grid lg:grid-cols-2 lg:grid-rows-3 md:grid-cols-1 gap-10">
-    <div class="flex gap-5 row-span-3">
+    <div class="flex gap-5 row-span-3" id="besttip">
       <img
         class="object-contain"
         src="../../image/HaiVan_col/Hai_Van.jpg"
@@ -59,3 +59,9 @@
 </template>
 
 <script setup></script>
+
+<style scoped>
+div#besttip {
+  height: 760px;
+}
+</style>

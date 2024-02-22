@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between pt-12 px-10 items-center">
+  <header class="flex justify-between px-10 items-center">
     <router-link to="/" class="text-gray-100 font-bold text-5xl drop-shadow-lg">
       Travello
     </router-link>

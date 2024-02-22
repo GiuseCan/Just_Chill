@@ -1,7 +1,7 @@
 <template>
   <div class="h-full">
     <!-- component -->
-    <navbar class="sticky top-0 bg-blue-400 shadow-md pt-5 pb-7" />
+    <navbar class="sticky top-0 bg-blue-300 shadow-md pt-5 pb-7" />
     
     <div class="bg-gray-100 flex justify-center items-center h-full">
       <!-- Left Pane -->
@@ -245,7 +245,7 @@
         <form action="#" method="POST">
           <!-- Username Input -->
           <div class="mb-4">
-            <label for="username" class="block text-gray-600">Username</label>
+            <label for="username" class="block text-gray-600">Email</label>
             <input
               type="text"
               id="username"

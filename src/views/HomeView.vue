@@ -1,7 +1,11 @@
 <template>
   <section class="hero is-medium is-link">
-    <Services/>
-    <div class="intro flex justify-center gap-10 mt-60 flex-wrap">
+    <!-- <ViewScroll/> -->
+    <h2 class="mt-12 title font-bold text-gray-100 text-8xl drop-shadow-2xl text-center">
+        Let us take you away
+    </h2>
+    <!-- <Services/> -->
+    <div class="intro flex justify-center gap-10 mt-96 flex-wrap">
       <span class="flex items-center gap-5">
         <img
           src="https://preview.colorlib.com/theme/travello/images/beach.svg"
@@ -35,7 +39,7 @@
           <p>Nulla pretium tincidunt felis, nec.</p>
         </span>
       </span>
-      <span class="w-full mt-11 mx-36 inline-block h-0.5 bg-slate-400 rounded-xl">
+      <span class="w-full mt-11 mx-48 inline-block h-0.5 bg-slate-400 rounded-xl">
       </span>
     </div>
 
@@ -52,6 +56,13 @@ import Testimonials from "./Testimonials.vue";
 import BestTips from "./BestTips.vue";
 import Footer from "./Footer.vue";
 import Services from "./Services.vue";
+import ViewScroll from "./ViewScroll.vue";
 
 
 </script>
+
+<style scoped>
+div.intro {
+  margin-top: 440px;
+}
+</style>

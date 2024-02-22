@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[url('../../image/Backgroud.jpg')] w-full h-full bg-cover">
-    <navbar class="sticky top-0" />
+    <navbar class="sticky top-0  pt-12" />
 
     <main class="h-full flex justify-center mt-36">
       <router-view class="" />

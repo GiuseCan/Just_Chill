@@ -7,6 +7,8 @@ import Contact from '../views/Contact.vue'
 import Services from '../views/Services.vue'
 import DetailLocation from '../views/DetailLocation.vue'
 import Login from '../components/Login.vue'
+import Admin from '../components/Admin.vue'
+import UserProfile from '../components/UserProfile.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,7 +37,6 @@ const router = createRouter({
           name: "services",
           component: Services
         },
-        
       
       ]
     },
@@ -53,6 +54,16 @@ const router = createRouter({
       path: '/detaillocation',
       name: "detaillocation",
       component: DetailLocation
+    },
+    {
+      path: '/admin',
+      name: "admin",
+      component: Admin
+    },
+    {
+      path: '/userprofile',
+      name: "userprofile",
+      component: UserProfile
     },
   ]
 })

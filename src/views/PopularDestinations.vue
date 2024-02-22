@@ -7,7 +7,7 @@
       </h2>
     </div>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
@@ -17,7 +17,7 @@
         <p>Nulla pretium tincidunt felis, nec.</p>
         <h5 class="pt-1 font-bold">From $679</h5>
       </router-link>
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
@@ -27,7 +27,7 @@
         <p>Nulla pretium tincidunt felis, nec.</p>
         <h5 class="pt-1 font-bold">From $679</h5>
       </router-link>
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
@@ -37,7 +37,7 @@
         <p>Nulla pretium tincidunt felis, nec.</p>
         <h5 class="pt-1 font-bold">From $679</h5>
       </router-link>
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
@@ -47,7 +47,7 @@
         <p>Nulla pretium tincidunt felis, nec.</p>
         <h5 class="pt-1 font-bold">From $679</h5>
       </router-link>
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
@@ -57,7 +57,7 @@
         <p>Nulla pretium tincidunt felis, nec.</p>
         <h5 class="pt-1 font-bold">From $679</h5>
       </router-link>
-      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-72 object-contain">
+      <router-link :to="{name: 'detaillocation'}" class="rounded-t-lg w-80 object-contain">
         <img
           class="rounded-t-lg hover:scale-105 transition-transform"
           src="https://preview.colorlib.com/theme/travello/images/destination_2.jpg.webp"
